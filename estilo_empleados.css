@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(109, 146, 180);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.empleados {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 750px;
+    padding: 20px;
+}
+
+.empleados h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(77, 134, 187);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empleados a {
+    color: rgb(77, 134, 187);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabla {
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.fila {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.celda {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celda:nth-child(2) { /* Ajuste de la celda del nombre completo */
+    flex: 2; /* Asigna más espacio a la celda del nombre completo */
+}
+
+.cabecera {
+    background-color: rgb(77, 134, 187);
+    color: white;
+    font-weight: bold;
+}
+
+.fila:nth-child(even) {
+    background-color: rgb(230, 230, 230);
+}
+
+.fila:hover {
+    background-color: rgb(200, 200, 255);
+}
+
+.acciones {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.acciones a {
+    color: rgb(77, 134, 187);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.acciones a:hover {
+    background-color: rgba(77, 134, 187, 0.2);
+}
+
+
